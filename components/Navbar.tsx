@@ -2,6 +2,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export default function Navbar() {
+  const whatsapp = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? '59899000000'
+
   return (
     <nav className="sticky top-0 z-50 bg-paper/95 backdrop-blur-md border-b border-paper2">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
@@ -38,7 +40,9 @@ export default function Navbar() {
         </div>
 
         <a
-          href="#form"
+          href={`https://wa.me/${whatsapp}`}
+          target="_blank"
+          rel="noopener noreferrer"
           className="bg-green text-white text-sm font-semibold px-5 py-2.5 rounded-full hover:bg-green-dark transition-colors"
         >
           Reservar clase

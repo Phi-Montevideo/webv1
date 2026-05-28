@@ -18,8 +18,8 @@ const steps = [
   },
   {
     number: '04',
-    title: 'Presencial u online',
-    desc: 'Clases en Montevideo o por videollamada.',
+    title: 'Clases presenciales en Cordón',
+    desc: 'Nos encontramos en la zona de Cordón, Montevideo. Consultá disponibilidad.',
   },
 ]
 

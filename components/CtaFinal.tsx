@@ -25,7 +25,9 @@ export default function CtaFinal() {
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <a
-            href="#form"
+            href={`https://wa.me/${whatsapp}`}
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-white text-green font-semibold px-8 py-4 rounded-full hover:bg-green-pale transition-colors"
           >
             Reservar primera clase
