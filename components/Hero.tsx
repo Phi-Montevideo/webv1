@@ -91,10 +91,10 @@ export default function Hero() {
                 <div>
                   <div className="text-white font-semibold">Cuponera × 10 hs</div>
                   <div className="text-xs mt-0.5" style={{ color: 'rgba(116,198,157,0.7)' }}>
-                    Ahorrás $200
+                    Ahorrás $300
                   </div>
                 </div>
-                <div className="font-serif text-3xl font-bold text-white">$3.800</div>
+                <div className="font-serif text-3xl font-bold text-white">$3.700</div>
               </div>
             </div>
 

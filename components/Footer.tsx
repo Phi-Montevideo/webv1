@@ -19,7 +19,7 @@ export default function Footer() {
             <a href="#form" className="hover:text-white transition-colors">Contacto</a>
           </nav>
           <p className="text-xs" style={{ color: 'rgba(116,198,157,0.55)' }}>
-            © 2025 Instituto Phi · Montevideo, Uruguay
+            © 2026 Instituto Phi · Montevideo, Uruguay
           </p>
         </div>
       </div>
